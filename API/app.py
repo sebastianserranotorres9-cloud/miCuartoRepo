@@ -25,7 +25,7 @@ def get_lotr_warriors():
     rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum", "El anillo"]
     return rows
 
-@app.get("/cursosPlatzi)
+@app.get("/cursosPlatzi")
 def get_cursos_platzi():
     rows = ["python", "Git", "Github", "Javascript", "Estadistica", "Rag"]
     return rows
